@@ -8,7 +8,7 @@ app = FastAPI()
 
 @app.get("/")
 def root():
-    return {"msg": "ok"}
+    return {"msg": "ok 26-0512"}
     
 @app.get("/stock")
 def stock():
